@@ -21,11 +21,11 @@ int main()
     int n;
     cin>>n;
     int arr[n];
-    int x;
-    cin>>x;
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
     }
+        int x;
+    cin>>x;
     cout<<firstIndex(arr, 0, n, x);
 }
